@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ## Author:SuperManito
-## Modified:2021-4-1
+## Modified:2021-4-2
 
 ##############################  作  者  昵  称  （必填）  ##############################
 # 使用空格隔开
@@ -19,9 +19,9 @@ scripts_base_url_1=https://gitee.com/SuperManito/scripts/raw/master/
 
 ##############################  作  者  脚  本  名  称  （必填）  ##############################
 # 将相应作者的脚本填写到以下变量中
-my_scripts_list_1="jd_jdaxc.js jd_xxl_gh.js jd_factory_component.js jd_paopao.js jd_entertainment.js jd_shake.js jd_xmf.js jd_wish.js jd_mgold.js"
+my_scripts_list_1="jd_jdaxc.js jd_xxl_gh.js jd_paopao.js jd_entertainment.js jd_shake.js jd_xmf.js jd_wish.js jd_mgold.js"
 
-## 活动脚本名称：东东爱消除、个护爱消除、京喜工厂Plus、京东泡泡大战、百变大咖秀、超级摇一摇、京东小魔方、众筹许愿池、金口碑奖投票、
+## 活动脚本名称：东东爱消除、个护爱消除、京东泡泡大战、百变大咖秀、超级摇一摇、京东小魔方、众筹许愿池、金口碑奖投票、
 
 ## 由于CDN代理无法实时更新文件内容，目前使用本人的脚本收集库以解决不能访问 Github 的问题
 
@@ -73,3 +73,4 @@ done
 
 ##############################  删  除  失  效  的  活  动  脚  本  ##############################
 ## 删除旧版本失效的活动示例： rm -rf ${ScriptsDir}/jd_test.js
+rm -rf ${ScriptsDir}/jd_factory_component.js
