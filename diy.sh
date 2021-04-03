@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ## Author:SuperManito
-## Modified:2021-4-2
+## Modified:2021-4-4
 
 ##############################  作  者  昵  称  （必填）  ##############################
 # 使用空格隔开
@@ -11,19 +11,13 @@ author_list="SuperManito"
 # 1.从作者库中随意挑选一个脚本地址，每个作者的地址添加一个即可，无须重复添加
 # 2.将地址最后的 “脚本名称+后缀” 剪切到下一个变量里（my_scripts_list_xxx）
 
-## 目前使用本人收集的脚本库项目用于代替 CDN 加速
-scripts_base_url_1=https://gitee.com/SuperManito/scripts/raw/master/
-
-
 ## 添加更多脚本地址URL示例：scripts_base_url_3=https://raw.sevencdn.com/whyour/hundun/master/quanx/
 
 ##############################  作  者  脚  本  名  称  （必填）  ##############################
 # 将相应作者的脚本填写到以下变量中
-my_scripts_list_1="jd_jdaxc.js jd_xxl_gh.js jd_paopao.js jd_entertainment.js jd_shake.js jd_xmf.js jd_wish.js jd_mgold.js"
+my_scripts_list_1="jd_jdaxc.js jd_xxl_gh.js jd_paopao.js jd_entertainment.js jd_mother_jump.js jd_shake.js jd_wish.js jd_mgold.js jd_carnivalcity_plus.js"
 
-## 活动脚本名称：东东爱消除、个护爱消除、京东泡泡大战、百变大咖秀、超级摇一摇、京东小魔方、众筹许愿池、金口碑奖投票、
-
-## 由于CDN代理无法实时更新文件内容，目前使用本人的脚本收集库以解决不能访问 Github 的问题
+## 活动脚本名称：东东爱消除、个护爱消除、京东泡泡大战、百变大咖秀、母婴跳一跳、超级摇一摇、众筹许愿池、金口碑奖投票、手机狂欢节 Plus
 
 ##############################  随  机  函  数  ##############################
 rand() {
@@ -74,3 +68,4 @@ done
 ##############################  删  除  失  效  的  活  动  脚  本  ##############################
 ## 删除旧版本失效的活动示例： rm -rf ${ScriptsDir}/jd_test.js
 rm -rf ${ScriptsDir}/jd_factory_component.js
+rm -rf ${ScriptsDir}/jd_xmf.js
