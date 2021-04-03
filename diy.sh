@@ -17,7 +17,7 @@ scripts_base_url_1=https://gitee.com/SuperManito/scripts/raw/master/
 
 ##############################  作  者  脚  本  名  称  （必填）  ##############################
 # 将相应作者的脚本填写到以下变量中
-my_scripts_list_1="jd_jdaxc.js jd_xxl_gh.js jd_paopao.js jd_entertainment.js jd_mother_jump.js jd_shake.js jd_carnivalcity_plus.js jd_inter_shop_sign.js jd_shop_follow_sku.js jd_shop_lottery.js"
+my_scripts_list_1="jd_jdaxc.js jd_xxl_gh.js jd_paopao.js jd_entertainment.js jd_mother_jump.js jd_shake.js jd_carnivalcity_plus.js jd_inter_shopsign.js jd_shop_followsku.js jd_shop_lottery.js"
 
 ## 活动脚本名称：东东爱消除、个护爱消除、京东泡泡大战、百变大咖秀、母婴跳一跳、超级摇一摇、手机狂欢节 Plus、interCenter渠道店铺签到、店铺关注有礼、店铺大转盘
 
@@ -73,4 +73,4 @@ done
 rm -rf ${ScriptsDir}/jd_factory_component.js
 rm -rf ${ScriptsDir}/jd_xmf.js
 rm -rf ${ScriptsDir}/jd_wish.js
-rm -rf ${ScriptsDir}/jd_mgold.js 
+rm -rf ${ScriptsDir}/jd_mgold.js
