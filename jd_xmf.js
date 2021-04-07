@@ -1,7 +1,7 @@
 /*
 京东小魔方
 活动入口：京东app-新品首发-京东小魔方-百万京豆
-活动时间：2021-04-04 至 2021-04-06
+活动时间：2021-04-07 至 2021-04-09
 不定时京豆活动
 新手写脚本，难免有bug，能用且用。
 
@@ -9,17 +9,17 @@
 ============Quantumultx===============
 [task_local]
 #京东小魔方
-10 10 4-6 4 * https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, tag=京东小魔方,  enabled=true
+10 10 7-9 4 * https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, tag=京东小魔方,  enabled=true
 ================Loon==============
 [Script]
-cron "10 10 4-6 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
+cron "10 10 7-9 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
 ===============Surge=================
-京东小魔方 = type=cron,cronexp="10 10 4-6 4 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js
+京东小魔方 = type=cron,cronexp="10 10 7-9 4 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js
 ============小火箭=========
-京东小魔方 = type=cron,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, cronexpr="10 10 4-6 4 *", timeout=3600, enable=true
+京东小魔方 = type=cron,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, cronexpr="10 10 7-9 4 *", timeout=3600, enable=true
 */
 const $ = new Env('京东小魔方');
-
+const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //IOS等用户直接用NobyDa的jd cookie
@@ -206,7 +206,7 @@ var _0x2d8b = function (_0x52e8a6, _0x2e64b6) {
         if (_0x351a2a[_0x2d8b('17', 'u[5s')](_0x2d8b('18', 'r#bR'), _0x351a2a[_0x2d8b('19', 'AIwz')])) {
           if (_0x351a2a[_0x2d8b('1a', 'QJ^%')](_0x41d1e8, null)) {
             if (_0x2bcf17[_0x2d8b('1b', 'QJ^%')](_0x351a2a[_0x2d8b('1c', '34KZ')])) {
-              await notify[_0x2d8b('1d', '34KZ')]($['name'], _0x351a2a['VVxln']);
+              // await notify[_0x2d8b('1d', '34KZ')]($['name'], _0x351a2a['VVxln']);
             }
           }
         } else {
