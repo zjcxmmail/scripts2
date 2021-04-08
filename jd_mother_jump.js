@@ -759,7 +759,7 @@ async function jump() {
             return _0x3237bd();
         },
         'gEHen': 'boom',
-        'ZDoQl': '哦吼,遇到了炸弹',
+        'ZDoQl': '哦吼,遇到了💣',
         'zmrjm': _0x36da('151', '1^$h'),
         'ZwdNu': _0x36da('152', 'Kg[^'),
         'NVDuX': _0x36da('153', 'x6gt'),
