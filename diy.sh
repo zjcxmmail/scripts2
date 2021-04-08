@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 ## Author:SuperManito
-## Modified:2021-4-5
 
 ##############################  作  者  昵  称  （必填）  ##############################
 # 使用空格隔开
@@ -17,7 +16,7 @@ scripts_base_url_1=https://gitee.com/SuperManito/scripts/raw/master/
 
 ##############################  作  者  脚  本  名  称  （必填）  ##############################
 # 将相应作者的脚本填写到以下变量中
-my_scripts_list_1="jd_paopao.js jd_entertainment.js jd_mother_jump.js jd_shake.js jd_xmf.js jd_carnivalcity_plus.js jd_inter_shopsign.js jd_shop_followsku.js jd_shop_lottery.js"
+my_scripts_list_1="jd_paopao.js jd_entertainment.js jd_mother_jump.js jd_shake.js jd_xmf.js jd_carnivalcity_plus.js jd_inter_shopsign.js jd_shop_followsku.js jd_shop_lottery.js jd_skyworth.js"
 
 ##############################  随  机  函  数  ##############################
 rand() {
